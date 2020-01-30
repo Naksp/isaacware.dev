@@ -5,10 +5,7 @@ body {
 }
 .headline {
     height: 30%;
-}
-.image {
     width: 100%;
-    height: 100%;
     background-image: url('../Images/water_cropped.jpg');
     background-size: cover;
     background-repeat: no-repeat;
