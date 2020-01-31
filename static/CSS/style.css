@@ -4,9 +4,9 @@ body {
     background-color: #333;
 }
 .headline {
-    height: 30%;
+    height: 40%;
     width: 100%;
-    background-image: url('../Images/water_cropped.jpg');
+    background-image: linear-gradient(to bottom, rgba(51,51,51,0) 50%, rgba(51,51,51,1) 85%), url('../Images/water_cropped.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
@@ -16,8 +16,25 @@ body {
     justify-content: left;
 }
 
-.text {
+.headertext {
     font-size: 3.5vw;
-    color: #edd;
+    color: #fdd;
     max-width: 100%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.subheading {
+    font-size: 30px;
+    color: #fdd;
+    margin-left: 10%;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-top: 0px;
+    font-weight: 300;
 }
