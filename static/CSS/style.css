@@ -30,7 +30,7 @@ body {
 }
 
 .headertext {
-    font-size: 50px;
+    font-size: 70px;
     color: var(--background_color);
     max-width: 100%;
     position: relative;
@@ -72,7 +72,7 @@ a:hover {
 }
 
 hr {
-    margin-top: 3.15em;
+    margin-top: 3.2em;
     margin-bottom: 2em;
     width: 90%;
     max-width: 1000px;
