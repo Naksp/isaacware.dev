@@ -1,7 +1,8 @@
 :root {
     --link_blue: #0068d8;
     --hr_color: #23233b4f;
-    --background_color: #fff2f2;
+    --background_color: #fffae5;
+    /* --background_color: #fff2f2; */
 }
 body {
     margin: 0;
@@ -14,7 +15,9 @@ body {
 .headline {
     height: 25%;
     width: 100%;
-    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../Images/water_cropped.jpg');
+    /* background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../Images/water_cropped.jpg'); */
+    background-color: #ffc04b;
+    background-color: #aefd9a;
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
@@ -34,7 +37,8 @@ body {
 
 .headertext {
     font-size: 70px;
-    color: var(--background_color);
+    /* color: var(--background_color); */
+    color: #222;
     max-width: 100%;
     position: relative;
     margin-bottom: 2pc;
